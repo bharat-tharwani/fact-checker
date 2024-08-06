@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyLandingPage</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#cta">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Landing Page</h1>
+            <p>Your one-stop solution for everything.</p>
+            <button onclick="scrollToSection('cta')">Get Started</button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-item">
+            <h3>Feature One</h3>
+            <p>Some amazing details about this feature.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Two</h3>
+            <p>Some more amazing details about another feature.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Three</h3>
+            <p>Even more amazing details about yet another feature.</p>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <h2>Ready to Get Started?</h2>
+        <p>Join us today and enjoy the benefits!</p>
+        <button onclick="alert('Thank you for joining us!')">Join Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyLandingPage. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
